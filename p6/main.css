@@ -1,0 +1,93 @@
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(227, 242, 242, .71);
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+
+.jumbotron {
+  margin-top: 0;
+  position: relative;
+  height: 400px;
+  background: url('./img/IMG_4011.JPG') no-repeat center;
+  background-size: cover;
+  margin-bottom: 0;
+  background-color: white;
+
+}
+
+#jumboText{
+ 
+  font-family: 'Cookie', cursive;
+  width: 300px;
+  float: inherit;
+  color:rgb(170, 221, 221);
+  text-shadow: 3px 3px 3px grey;
+  padding-top: 150
+  
+}
+
+h1{
+  letter-spacing: 2px;
+  font-size: 60px;
+}
+
+.btn-danger{
+    
+    background-color: rgba(236, 192, 200, 1);
+    border-color: rgba(236, 192, 200, 1);
+}
+
+.btn-danger:hover {
+    
+    background-color: rgba(236, 192, 200, 1);
+    border-color: rgba(236, 192, 200, 1);
+    color: rgb(170, 221, 221);
+}
+
+.topTenBanner{
+    
+    background: rgba(170, 221, 221, 0.71);
+    height:200px;
+}
+
+#topTenText{
+ 
+  font-family: 'Delius Unicase', cursive;
+  float: inherit;
+  color:rgba(236, 192, 200, 1);
+  text-shadow: 3px 3px 3px grey;
+  padding-top: 60px;
+  
+}
